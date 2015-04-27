@@ -1,0 +1,8 @@
+---
+module: serverspec
+dsl_version: 1.0.0
+module_type: puppet_module
+components:
+  serverspec:
+    external_ref:
+      puppet_class: serverspec
